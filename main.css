@@ -1,0 +1,80 @@
+body {
+    background-color: #222;
+}
+
+.header {
+	text-align: center;
+	background-color: #999;
+    color: #333;
+	padding: 20px 0;
+	font-size: 56px;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+main {
+    color: #fff;
+    font-size: 34px;
+    text-align: center;
+    font-family: "Times New Roman", Georgia, Serif;
+    padding: 60px 10px 10px 10px;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+li {
+    padding-bottom: 25px;
+    color: #223;
+}
+
+#level1:hover {
+    color: green;
+}
+
+#level2:hover {
+    color: yellow;
+}
+
+#level3:hover {
+    color: red;
+}
+
+#field {
+    position: absolute;
+    padding: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+}
+
+.cell {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 32px;
+    background: #080;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #050;
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+}
+
+.cell.open {
+    background-color: #0b0;
+}
+
+.cell:hover {
+    border-color: #880;
+}
+
+#result.win {
+	content: "Win";
+}
